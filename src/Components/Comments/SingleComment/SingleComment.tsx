@@ -21,7 +21,7 @@ const SingleComment: React.FC<SingleCommentProps> = ({
 }) => {
   return (
     <article
-      className="flex flex-col gap-4 w-[700px] border-2 border-[#27292D] rounded-lg bg-comment-background p-6 max-lg:max-w-[400px] max-lg:p-3"
+      className="flex flex-col gap-4 max-w-[700px] border-2 border-[#27292D] rounded-lg bg-comment-background p-6 max-lg:p-[15px]"
       aria-labelledby={`comment-${post.username}`}
       aria-describedby={`comment-content-${post.username}`}
     >
@@ -65,7 +65,7 @@ const SingleComment: React.FC<SingleCommentProps> = ({
       </header>
 
       <section
-        className="p-4 bg-[#191920] rounded-lg flex flex-row items-start gap-4 overflow-hidden"
+        className="p-4 bg-[#191920] rounded-lg flex flex-row items-start gap-4 overflow-hidden max-lg:p-[10px]"
         id={`comment-content-${post.username}`}
       >
         <div

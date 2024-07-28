@@ -24,6 +24,10 @@ module.exports = {
       },
       placeholderColor: {
         'text-placeholder': "#7F8084"
+      },
+      screens: {
+        'smm': '360px',
+        'lg': '1024px',
       }
     },
   },

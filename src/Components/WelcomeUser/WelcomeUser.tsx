@@ -6,9 +6,9 @@ interface WelcomeUserProps {
 
 const WelcomeUser: React.FC<WelcomeUserProps> = ({ username }) => {
   return (
-    <header>
+    <header className="">
       <h1
-        className="w-[700px] text-3xl font-semibold text-foreground text-white-font max-lg:max-w-[400px]"
+        className="text-3xl font-semibold text-foreground text-white-font"
         aria-label={`Greeting message for ${username}`}
         role="heading"
         aria-level={1}

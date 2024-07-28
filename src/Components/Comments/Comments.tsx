@@ -17,10 +17,12 @@ const Comments = () => {
 
   return (
     <div
-      className="flex justify-center items-center pt-[100px] flex-col gap-[40px] max-lg:px-5 max-lg:pt-[50px]"
+      className="flex justify-center items-center pt-[100px]  max-lg:pt-[30px] max-lg:p-[30px]"
       role="main"
       aria-labelledby="comments-section"
     >
+      <div className="flex flex-col gap-[40px]">
+
       <WelcomeUser username={data.username} />
       <section
         className="flex flex-col gap-[20px]"
@@ -37,6 +39,8 @@ const Comments = () => {
         ))}
       </section>
       {showModal && <Modal handleShowModal={showSignUpModal} />}
+      </div>
+
     </div>
   );
 };
