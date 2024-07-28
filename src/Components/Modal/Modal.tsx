@@ -22,8 +22,8 @@ const Modal: React.FC<ModalProps> = ({ handleShowModal }) => {
       aria-labelledby="modalTitle"
       aria-describedby="modalDescription"
     >
-      <div className="h-auto w-[60%]  max-w-[460px] rounded-md bg-gradient-to-r from-[#888888] to-[#45474b] p-0.5 flex ">
-        <div className="bg-modal-background py-8 px-6 rounded-lg w-[100%] max-w-[460px] min-h-[420px]">
+      <div className="h-auto w-[60%]  max-w-[460px] min-w-[305px] rounded-md bg-gradient-to-r from-[#888888] to-[#45474b] p-0.5 flex ">
+        <div className="bg-modal-background py-8 px-6 rounded-lg w-[100%] max-w-[460px] min-w-[300px] min-h-[420px]">
           <CrossIcon closeModal={handleShowModal} aria-label="Close modal" />
           <header className="flex flex-col items-center">
             <h4 id="modalTitle" className="text-light-gray">
