@@ -17,7 +17,7 @@ const Comments = () => {
 
   return (
     <div
-      className="flex justify-center items-center pt-[100px] flex-col gap-[40px]"
+      className="flex justify-center items-center pt-[100px] flex-col gap-[40px] max-lg:px-5 max-lg:pt-[50px]"
       role="main"
       aria-labelledby="comments-section"
     >

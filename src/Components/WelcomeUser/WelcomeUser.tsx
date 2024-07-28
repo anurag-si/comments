@@ -8,7 +8,7 @@ const WelcomeUser: React.FC<WelcomeUserProps> = ({ username }) => {
   return (
     <header>
       <h1
-        className="w-[700px] text-3xl font-semibold text-foreground text-white-font"
+        className="w-[700px] text-3xl font-semibold text-foreground text-white-font max-lg:max-w-[400px]"
         aria-label={`Greeting message for ${username}`}
         role="heading"
         aria-level={1}

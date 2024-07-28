@@ -7,7 +7,7 @@ interface NewCommentProps {
 const NewComment: React.FC<NewCommentProps> = ({ handleShowModal }) => {
   return (
     <article
-      className="flex flex-col gap-4 w-[700px] border-2 border-[#27292D] rounded-lg bg-comment-background p-6"
+      className="flex flex-col gap-4 w-[700px] border-2 border-[#27292D] rounded-lg bg-comment-background p-6 max-lg:max-w-[400px] max-lg:p-3"
       aria-labelledby="new-comment-header"
       aria-describedby="new-comment-instructions"
     >
